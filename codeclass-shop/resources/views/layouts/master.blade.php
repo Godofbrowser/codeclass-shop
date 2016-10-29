@@ -13,6 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
   <div class="header-top">
@@ -173,7 +174,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- start menu -->     
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="js/megamenu.js"></script>

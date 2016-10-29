@@ -60,6 +60,7 @@
                             </div></div></div></div>
                </section>
         </div>
+        
         <div class="cont span_2_of_3">
           <div class="mens-toolbar">
               <div class="sort">
