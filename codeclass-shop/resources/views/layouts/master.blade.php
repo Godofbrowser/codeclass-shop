@@ -183,11 +183,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         $(document).ready(function() {
             $(".dropdown img.flag").addClass("flagvisibility");
 
-            $(".dropdown dt a").click(function() {
+            $(".dropdown dt a").click(function(e) {
+                e.preventDefault();
                 $(".dropdown dd ul").toggle();
             });
                         
-            $(".dropdown dd ul li a").click(function() {
+            $(".dropdown dd ul li a").click(function(e) {
+                e.preventDefault();
                 var text = $(this).html();
                 $(".dropdown dt a span").html(text);
                 $(".dropdown dd ul").hide();
