@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/products', function () {
+    return view('products');
+});
+Route::get('/single', function () {
+    return view('single');
+});
